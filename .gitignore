@@ -32,6 +32,13 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# 設定項目のテンプレートは共有したいので除外しない
+!.env.local.example
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/
 
 # vercel
 .vercel
